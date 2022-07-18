@@ -34,6 +34,7 @@ export const tasksSlice = createSlice({
       if (foundTask) {
         foundTask.title = title;
         foundTask.description = description;
+        
       }
     },
   },
